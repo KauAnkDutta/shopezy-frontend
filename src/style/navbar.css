@@ -1,0 +1,181 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    flex-wrap: wrap;
+    position: fixed;
+    border-radius: 5px;
+    z-index: 5;
+    width: 95%;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0.2rem 1.5rem;
+    gap: 10px;
+}
+
+.logo{
+    flex: 1;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.navbar-search-section{
+    flex:2;
+    position: relative;
+}
+
+.searchInput{
+    height: 10px;
+    padding: 10px;
+    border: none;
+    width: 85%;
+    border-radius: 20px;
+    background: whitesmoke;
+    outline: none;
+    font-size: 18px;
+    color: rgb(57, 55, 55);
+    padding-left: 30px;
+}
+
+.searchInput::placeholder{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(180, 179, 179)
+}
+
+.search-icon{
+    color: rgb(111, 109, 109);
+    position: absolute;
+    font-size: 20px;
+    left: 5px;
+    bottom: 5px;
+}
+
+
+.navbar-navlinks-section{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+
+.icon{
+    margin-right: 15px;
+
+}
+
+.user-letter{
+    color: rgb(76, 63, 219);
+    border: 3px solid rgb(103, 241, 117);
+    padding: 4px 10px;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+.user-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.headerOption{
+    color: white;
+    position: absolute;
+    background:whitesmoke;
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    width: 100px;
+    font-weight: 500;
+    left: -45px;
+    top: 45px;
+    transition: 0.5s;
+}
+
+.headerOption::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 47%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent whitesmoke transparent;
+}
+
+.nav-signin-btn{
+    background: goldenrod;
+    cursor: pointer;
+    border: 2px solid #b79131;
+    padding: 5px;
+}
+
+.nav-logout-btn{
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(210, 208, 208);
+    padding: 5px;
+    font-weight: 500;
+}
+
+.nav-logout-btn:hover{
+    color: rgb(229, 74, 74);
+}
+
+.navbar-links{
+    display: flex;
+    flex: 3;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav-link{
+    padding: 0 1rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    line-height: 30px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
+
+.basketOption{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cart{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+    color: rgb(62, 83, 249);
+}
+
+.count{
+    position: relative;
+    top: -5px;
+    color: goldenrod;
+}

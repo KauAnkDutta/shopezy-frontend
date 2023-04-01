@@ -1,0 +1,14 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    height: max-content;
+    background: white;
+    margin: 0 15px;
+    margin-bottom: 20px;
+}
+
+.checkoutAdd{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}

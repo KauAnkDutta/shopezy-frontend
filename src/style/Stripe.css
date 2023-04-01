@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Signika+Negative&display=swap');
+
+.stripe_main_container{
+    margin: 100px 20px; 
+}
+
+.stripe_sub_container{
+    display: flex;
+}
+
+.stripe_main_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.stripe_container_right{
+    flex: 5;
+}
+.stripe_container_left{
+    flex: 2;
+}
+
+.strip_head{
+    text-align: center;
+    padding: 40px;
+    color: rgb(57, 57, 173);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+@media screen and (min-width: 1425px){
+    .stripe_main_container{
+        margin: 200px 25px; 
+    }
+}

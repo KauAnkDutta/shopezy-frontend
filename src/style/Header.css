@@ -1,0 +1,115 @@
+.Header{
+    display:flex;
+    align-items: center;
+    height: 60px;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.headerLogo{
+    margin: 0 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #cd9042;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin-top: 12px; */
+}
+
+.searchIcon{
+    background-color: #cd9042;
+    padding: 5px 8px;
+    height: 30px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icon{
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+.headerSearch{
+    display:flex;
+    align-items: center;
+    flex: 1;
+    border-radius: 24px;
+}
+
+.searchInput{
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.navLogin, .navCart{
+    text-decoration: none;
+}
+
+.optionLineOne{
+    font-size: 11px;
+}
+
+.optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.basketOption{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.cart{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.count{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color:#cd9042;
+    font-weight: 600;
+}
+
+.headerOption:hover {
+    outline: 1px solid white;
+    
+}
+
+.logo:hover{
+    outline: 1px solid white;
+}
+
+.navReturn{
+    text-decoration: none;
+}

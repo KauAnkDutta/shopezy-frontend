@@ -1,0 +1,86 @@
+/* #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+} */
+
+
+.card {
+    max-width: 440px;
+    margin: auto 1rem;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 9px 12px 22px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 12px 22px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 12px 22px -9px rgba(0, 0, 0, 0.75);
+}
+
+.card-title {
+    color: rgb(116, 115, 115);
+    font-weight: 500;
+}
+
+.product--image {
+    width: 100%;
+    height: 12em;
+    object-fit: contain;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bg-boat {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.bg-watch {
+    background-image: linear-gradient(to right, #e099eb, #b499dc, #9494c3, #828ba4, #7c7f83);
+    ;
+}
+
+.bg-lap {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(33, 115, 130, 1) 1.4%, rgba(35, 39, 124, 1) 90%);
+}
+
+.bg-mouse {
+    background-image: linear-gradient(to right, #303336, #424a52, #556170, #6a7990, #8292b1);
+}
+
+.bg-player {
+    background-image: linear-gradient(to right, #677ebe, #6090cb, #5ca1d5, #5fb2dc, #69c2e1);
+}
+
+.bg-marshall {
+    background-image: linear-gradient(to right, #303336, #424a52, #556170, #6a7990, #8292b1);
+}
+
+.price {
+    color: grey;
+    font-size: 18px;
+}
+
+.slider-item-add-btn {
+    border: none;
+    text-decoration: none;
+    outline: 0;
+    padding: 5px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px
+}
+
+.card-btn {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.slider-item-add-btn:hover {
+    opacity: 0.7;
+}

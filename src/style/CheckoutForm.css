@@ -1,0 +1,178 @@
+.form_container{
+    background: white;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 450px;
+    max-height: max-content;
+}
+
+.head-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.head-section > i{
+    font-size: 15px;
+    margin-top: 5px;
+    color: grey;
+    
+}
+
+.head-section > h3{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.payment-form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.user_info>label{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.user_info>input{
+    height: 30px;
+    border: 1px solid rgb(191, 189, 189);
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.user_info>input::placeholder{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.user_info>input:focus{
+    outline: 1px solid rgb(110, 242, 110);
+}
+
+.card_num{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_num>label{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.card-input{
+    position: relative;
+}
+
+.card-input>i{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 20px;
+    color: rgb(137, 133, 133);
+}
+
+.card_num_input{
+    background: white;
+    border: 1px solid rgb(191, 189, 189);
+    height: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.card_exp{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card_exp>label{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    letter-spacing: 1px;
+    margin-bottom: 5px; 
+}
+
+.card_exp_input{
+    background: white;
+    border: 1px solid rgb(191, 189, 189);
+    height: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.row_info_exp{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-cvc{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-cvc>label{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.card_cvc_input{
+    background: white;
+    border: 1px solid rgb(191, 189, 189);
+    height: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payBtn{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    /* background: rgb(81, 187, 81);*/
+    background: royalblue;
+}
+
+.payBtn:hover{
+    opacity: 0.8;
+}

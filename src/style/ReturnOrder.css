@@ -1,0 +1,159 @@
+.return_main_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.return_first_container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    height: 50px;
+    background: rgb(165, 164, 164);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid rgb(170, 163, 163)
+}
+
+.return_sub_container{
+    display: flex;
+    justify-content:space-between;
+    width: 40%;
+    height: 100%;
+}
+
+.return_header_option{
+    display: flex;
+    flex-direction: column;
+}
+
+.return_header_option > .line_one{
+    font-weight: 500;
+    color: rgb(66, 60, 60);
+}
+
+.return_header_option > .line_two{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(83, 76, 76);
+}
+
+.return_header_option > .name{
+    color: rgb(70, 70, 151);
+    font-weight:bolder;
+}
+
+.header_option_right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header_option_right > span{
+    margin-top: 15px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(66, 60, 60);
+    overflow: inherit;
+}
+
+.return_second_container{
+    padding: 30px;
+    display: flex;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid rgb(170, 163, 163);
+    border-top: none;
+}
+
+.return-img_container{
+    flex: 1;
+}
+
+.return-img_container > img{
+    height: 150px;
+}
+
+.return-item_info{
+    flex: 6;
+    align-items: center;
+    padding: 5px;
+}
+
+.return-item_info > .buy_back{
+    display: block;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.return-item_info > p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: blue;
+}
+
+.return-item_info > span{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(103, 102, 102);
+}
+
+.buy_back{
+    position: relative;
+}
+
+.buy_back > img{
+    position: absolute;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.buy_back > button{
+    height: 35px;
+    padding-left: 30px;
+    width: 20vh;
+    background: royalblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.return-btn_box{
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.return-btn_box > .demo_btn:nth-child(2){
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.return-btn_box > .demo_btn{
+    -webkit-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.14);
+    box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.14);
+    height: 5vh;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.return-btn_box > .demo_btn:hover{
+    background-color: rgb(208, 228, 240);
+}
